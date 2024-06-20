@@ -1,9 +1,10 @@
+import ProductHeader from '@/components/ProductHeader';
 import ProductList from '@/components/ProductList';
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 function ProductPage() {
 	return (
 		<div>
-			<h1>상품 목록 페이지</h1>
+			<ProductHeader title={'상품 목록 페이지'} />
 			<ProductList></ProductList>
 		</div>
 	);
