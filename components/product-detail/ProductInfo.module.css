@@ -1,0 +1,10 @@
+.container {
+  display: flex;
+}
+.detail {
+  margin-left: 1rem;
+  & p:first-of-type {
+    font-weight: bold;
+    font-size: 1.4rem;
+  }
+}
